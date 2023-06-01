@@ -1,0 +1,13 @@
+[package]
+name = "enum_utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.enum_utils_derive]
+path = "enum_utils_derive"
+optional = true
+default-features = false
+
+[features]
+default = []
+derive = ["enum_utils_derive"]
